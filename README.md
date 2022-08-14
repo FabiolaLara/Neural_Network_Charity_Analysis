@@ -3,11 +3,11 @@
 
 # 1. Overview of the analysis:
 
-   The Alphabet Soup Company wants to give some funds for a serie of companies mentioned in a given data base, there are more columns besides these companies, so in order to process this iformation the data base should be clean, it means to be sure  that we need to be sure, the type of values are numerical, so, for those values where their typse are categoricals, they need to be trasnform into numericals, also it is neccesary to eliminate those columns that don't have relation with the numerical values. 
+   The Alphabet Soup Company wants to give some funds for a serie of companies mentioned in a given data base, so we can analyse the. there are more columns besides these ones containing the companies names, so in order to process this iformation, the data base should be clean, it means to be sure the type of values are numerical, so, for those values where their types are categoricals, they need to be trasnform into numericals, also it is neccesary to eliminate those columns that don't have relation with the numerical values. 
    
-  The second part of this challenge is to visualized the total of values to use for each column, made this, the data base will be encoded, it means it will be transfomed into 1 and 0 values.
+  The second part of this challenge is to visualized the total of values to use for each column,  made this, the data base will be encoded, it means it will be transfomed into 1 and 0 values.
   
-  The third part will be to merge the encoded data frame with the original, erasing those columns that now are encode. Now we have the neccesary data to define the features and target colum. The next step is to standarized the features applying the StandardScaler function so we can fit it with the features array.
+  The third part will be to merge the encoded data frame with the original, erasing those columns that dont have the encoded columns. Done this we can say we have the neccesary data to define the features and target colum. The next step is to standarized the features applying the StandardScaler function so we can fit it with the features array.
   
   The mentioned above is part of the begining to create a deep neural network model, which is going to content inputs, neurons, layers and activation functions (the ones willbe choosen by the developer according the data characteristics).
   This model must be compile, trained and evaluated by getting the loss and accuracy.
