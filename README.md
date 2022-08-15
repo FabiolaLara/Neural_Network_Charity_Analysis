@@ -41,7 +41,9 @@ In this case the model didn´t need to change any code made previously,or activa
 
 
 - What steps did you take to try and increase model performance?
-To increase the number of neurons base on the rule that says that neurons must be two to three times the number of inputs.   
+Altough the model shows an accuracy of 100% the number of neurons base on the rule that says that neurons must be two to three times the number of inputs were increasead, and there was a slight improvement with respect of the loss.
+
+The images below show the slight differences between the loss. The first one is when the neurons were: 80 and 30 for the layer 1 and layer 2 respectively. The second image shows when the neurons were increased, for each layer there are 86 neurons. 
 
 
 ![NeuralModel](Resources/NeuralModel.png)             ![OptimzationModel](Resources/OptimzationNeuralModel.png)
