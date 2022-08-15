@@ -41,8 +41,10 @@ In this case the model didn´t need to change any code made previously,or activa
 
 
 - What steps did you take to try and increase model performance?
-   
-There is a bulleted list that answers all six questions (15 pt)
+To increase the number of neurons base on the rule that says that neurons must be two to three times the number of inputs.   
+
+
+![NeuralModel]["Resources/NeuralModel.png]                ![OptimzationModel]["Resources/OptimzationNeuralModel.png]
 
 Summary:
 
