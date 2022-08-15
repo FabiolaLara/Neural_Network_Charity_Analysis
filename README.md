@@ -48,4 +48,8 @@ Summary:
 
 For the AlphabetSoup_Charity_Optimzation there was a little change in the number of neurons introduced, according with the `X_train[0]`values equals to 43, representing the inputs in the model, there is a recommendation where it says that in order to have better results, the number of layers must be two to three times the number of inputs, then while defining the deep neural net model, the number of hidden_nodes_layer1 is equal to 86 ( 43*2 = 86), doing the same for the hidden_nodes_layer2 = 86, whit this data the result for the accuracy did't have a change, but there is variation in the loss, it was reduced a little bit so we could say that the increase of neurons in this case make the model better, the cost for the model was reduced slighly,at the end the model  suffered an improvement.
 
-There is a recommendation on using a different model to solve the classification problem, and justification (3 pt)
+The activation functions recomended in case we have negative values is : The Leaky ReLU function due is a good alternative for nonlinear input data with many negative inputs.
+
+The tanh function can be used for classification or regression, and it expands the range between -1 and 1, in case we need a longer range, the most comun use in this method is when the data set contains too many values.
+
+
